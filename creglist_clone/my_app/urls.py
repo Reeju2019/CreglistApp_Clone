@@ -7,5 +7,5 @@ urlpatterns = [
     path('', views.home, name = 'home'),
     # path('css/', include('my_app.urls')),
     # path('admin/', admin.site.urls),
-    # path('new-search/', views.new_search, name = 'new_search'),
+    path('new-search/', views.new_search, name = 'new_search'),
 ]
